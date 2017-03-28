@@ -5,4 +5,7 @@
       <div class="panel-body">
           Daytime Temperature: {{ convertToStandard({ daytimeTemp: weatherDay.temp.day}) }}&#8457;
       </div>
+      <div class="panel-body">
+          Conditions: {{ weatherDay.weather[0].description }}
+      </div>
 </div>
